@@ -1,0 +1,23 @@
+.build {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  text-align: center;
+  width: 100%;
+  gap: 40px;
+}
+.text {
+  gap: 40px;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+
+  font-family: Avenir;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 74px;
+}

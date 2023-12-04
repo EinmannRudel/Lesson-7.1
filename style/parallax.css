@@ -1,0 +1,19 @@
+.parallax-1 {
+  background: url(/parallax/bg-2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.scroll {
+  padding: 3% 0;
+}
+
+.parallax-2 {
+  background: url(/parallax/bg-3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}

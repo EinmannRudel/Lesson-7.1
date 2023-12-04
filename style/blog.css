@@ -1,0 +1,132 @@
+.blog {
+  width: 1512px;
+  margin-bottom: 110px;
+}
+
+.ganeral {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 41px 0;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+span {
+  color: var(--primary-blue, #0076f4);
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.ganeral-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 15px;
+  justify-content: center;
+}
+
+.ganeral-card {
+  display: flex;
+  height: 241px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(225, 229, 237, 0.1);
+  background: #2b2b2c;
+}
+
+#card1 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: var(--subsidiaries-violet, #cecefe);
+}
+#card2 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: var(--secondary-green, #80e1be);
+}
+#card3 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: var(--secondary-blue, #a6e4f8);
+}
+
+#card4 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: #ccef81;
+}
+
+#card5 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: #ffb796;
+}
+
+#card6 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: #fecef9;
+}
+
+#card7 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: #a6e4f8;
+}
+
+#card8 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: var(--secondary-green, #80e1be);
+}
+
+#card9 {
+  width: 44px;
+  height: 44px;
+  padding: 8px 7px;
+  border-radius: 4px;
+  background: #ffb796;
+}
+h5 {
+  color: #fff;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.ganeral-text {
+  color: var(--light-grey, #b4bcd0);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: start;
+}

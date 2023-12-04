@@ -1,0 +1,31 @@
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  gap: 28px;
+  margin-bottom: 100px;
+  margin-top: 350px;
+  padding: 101px 158px 97px 158px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 378px;
+  height: 269px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 17px;
+  padding-top: 26px;
+}

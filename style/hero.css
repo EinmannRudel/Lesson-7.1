@@ -1,0 +1,58 @@
+.hero {
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  gap: 40px;
+  padding-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96px;
+  background: linear-gradient(
+    180deg,
+    #ebe0c6 7.93%,
+    #efe8d8 20.99%,
+    #f8f4ec 34.91%,
+    #fffdfa 52.32%,
+    rgba(255, 253, 250, 0.75) 87.1%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-start {
+  border-radius: 6px;
+  background: var(--blue, #0076f4);
+  color: var(--secondary-white, #fff);
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.box-image {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.client-wrapper {
+  padding: 50px;
+}
+
+.client-logo {
+  gap: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
