@@ -1,0 +1,63 @@
+.prismatic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blocks {
+  gap: 28px;
+}
+
+.card-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 62px;
+  gap: 33px;
+  width: 440px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid #373737;
+  margin-bottom: 100px;
+}
+
+.price {
+  color: #fff;
+  font-family: "Sen", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: -0.45px;
+}
+
+.line {
+  width: 1px;
+  height: 60px;
+  background-color: #00a7e6;
+}
+
+.bg-1 {
+  background: url(/cards/Ellipse\ 100.svg) no-repeat;
+}
+
+.bg-2 {
+  background: url(/cards/Ellipse\ 101.svg) no-repeat;
+}
+
+.bg-3 {
+  background: url(/cards/Ellipse\ 102.svg) no-repeat;
+}
+
+.line-blue {
+  width: 1px;
+  height: 60px;
+  background-color: #0076f4;
+}
+
+.line-purple {
+  width: 1px;
+  height: 60px;
+  background-color: #b40fe7;
+}
